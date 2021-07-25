@@ -1,0 +1,208 @@
+.App {
+  width: 85%;
+  margin: auto;
+}
+
+#head-profil {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profil {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#head-navbar {
+  width: 100%;
+  flex-direction: row;
+}
+
+#head-navbar,
+#head-quotes,
+#aboutMe,
+#aboutMe-1,
+#aboutMe-2,
+#quotes-img,
+#detail-contact,
+.detail-contact1,
+#footer,
+#footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  text-decoration-line: none;
+}
+.navbar:hover {
+  color: salmon;
+}
+
+#head-quotes {
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+}
+
+.head-quotes1 {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.head-quotes1 h1 {
+  font-size: 80px;
+}
+
+#jumbotron {
+  margin-bottom: 50px;
+}
+
+.project-judul {
+  width: fit-content;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.projectHead {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  width: 280px;
+  height: 350px;
+  margin: 20px;
+}
+
+#card-text {
+  text-decoration-line: none;
+}
+
+#about {
+  margin-bottom: 50px;
+}
+
+#aboutMe {
+  width: auto;
+  height: auto;
+  border: black 1px solid;
+}
+
+#aboutMe-1 {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#aboutMe-2 {
+  width: 50%;
+  height: 100%;
+}
+
+#aboutMe-2 img {
+  width: 400px;
+  height: 400px;
+}
+
+#quotes {
+  margin-bottom: 30px;
+}
+
+#quotes-img {
+  width: 80%;
+  height: 400px;
+  background-image: url(./source/quotes.jpg);
+  margin: auto;
+}
+#contact {
+  margin-bottom: 30px;
+}
+
+#detail-contact {
+  width: 100%;
+  height: auto;
+}
+
+.detail-contact1 {
+  width: 50%;
+  height: 500px;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+}
+
+#created-footer {
+  margin: auto;
+}
+
+#footer-icon {
+  margin: auto;
+}
+
+.icon-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon-1 i {
+  width: 100px;
+  height: 100px;
+}
+/* #profil {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #profil {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+*/
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
